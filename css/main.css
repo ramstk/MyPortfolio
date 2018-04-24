@@ -1,0 +1,174 @@
+/*
+
+Main CSS for MyPortfolio
+Created by: Ram
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body.bodybg {
+    background: url('../images/bg.jpg') repeat center center;
+    
+}
+
+.row-wrap {
+    width: 905px;
+    margin: auto;
+    position: relative;
+}
+.row-space{
+    padding-left: 43px;
+}
+
+.head-name {
+    font-size: 29px;
+    line-height: 35px;
+    font-family: 'Patua One', cursive;
+    width: 50%;
+    float: left;
+    color: #000;
+}
+
+.head-social {
+    float: right;  
+    display:inline-block;
+}
+.fb .lnkd .inst{
+    display: inline !important;
+}
+.facebook- { display: inline-block; }
+.facebook- img { visibility: hidden; }
+.facebook-32 { width: 32px; height: 32px; background: url('../images/facebook.png') no-repeat 0 0 !imporatant; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.facebook-32 { background-image: url('../images/facebook.png'); background-size: 32px 32px; border-radius: 5px;} }
+
+.linkedin- { display: inline-block; }
+.linkedin- img { visibility: hidden; }
+.linkedin-32 { width: 32px; height: 32px; background: url('../images/linkedin.png') no-repeat 0 0; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.linkedin-32 { background-image: url('../images/linkedin.png'); background-size: 32px 32px;} }
+
+.ig-b { display: inline-block; }
+.ig-b img { visibility: hidden; }
+.ig-b-32 { width: 32px; height: 32px; background: url('../images/instabadge.jpg') no-repeat 0 0; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-32 { background-image: url('../images/instabadge.jpg'); background-size: 32px 32px;  border-radius: 5px;} }
+
+#header {
+    padding-top: 60px;
+    margin-bottom: 10%;
+}
+.row {
+    max-width: 860px;
+    width: 100%;
+    margin: auto;
+}
+
+.item-title {
+    height: 43px;
+    margin-left: 3px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 3px;
+    cursor: pointer;
+    padding-right: 40px;
+    z-index: 2;
+}
+
+.item-title .title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 16px;
+    background: #e7f2f9;
+    padding: 13px 17px 14px 13px;
+    color: #000;
+}
+
+.item-cont .profile-info {
+    background: #fff;
+}
+
+.light_skin .item {
+    background: #fff;
+}
+.item {
+    padding: 25px 0px;
+    margin-bottom: 3px;
+    position: relative;
+}
+#profile .item-cont {
+    padding-top: 17px;
+}
+.item-cont {
+    position: relative;
+    padding: 22px 3.95% 50%;
+    z-index: 2;
+}
+.clearfix {
+}
+
+.profile-img img {
+    display: block;
+    max-width: 100%;
+    margin-top: 1.3em;
+}
+
+#profile .col500 {
+    margin-left: -65%;
+}
+.col500 {
+    width: 65%;
+}
+.fl-left {
+    float: left;
+}
+
+.profile-info {
+    width: 50%;
+    float: left;
+    letter-spacing: -1px;
+    padding-left: 2%;
+}
+.profile-info p {
+    margin-bottom: 20px;
+}
+.profile-info p:last-child {
+    margin-bottom: 0px;
+}
+.profile-info p {
+    margin-bottom: 20px;
+}
+
+#profile .col260 {
+    margin-right: -33%;
+}
+.col260 {
+    width: 33%;
+}
+.fl-right {
+    float: right;
+}
+.profile-data {
+    margin-top: 1px;
+}
+ol, ul {
+    list-style: none;
+}
+.profile-data li {
+    margin-bottom: 11px;
+}
+.col260 .fl-right {
+    float: right;
+    margin-right: 0%;
+}
+#profile .col260 {
+    margin-right: -33%;
+}
